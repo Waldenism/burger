@@ -29,7 +29,7 @@ $('.destroyBtn').on('click', function(e) {
 function addBurger(burg) {
 	$.ajax({
 	  url: '/burgers/make',
-    type: "POST",
+    type: 'POST',
     data: {burger_name:burg}
   });
 };
@@ -37,7 +37,7 @@ function addBurger(burg) {
 function devourBurger(burg) {
 	$.ajax({
 		url: '/burgers/devour',
-		type: "PUT",
+		type: 'PUT',
 		data: { burger_name: burg }
 	});
 };
