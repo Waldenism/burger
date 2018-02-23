@@ -9,6 +9,7 @@ to run locally
 * from command line run 
   * `npm install` 
   * then `node server.js`
+*open browser and go to `127.0.0.1:3000`
 
 npm Dependencies:
 * express
